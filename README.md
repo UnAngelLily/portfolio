@@ -1,4 +1,4 @@
-# Planning our application
+# Planning application
  1. Answer Questions
   - What are we building?
   - Who are we building it for?
