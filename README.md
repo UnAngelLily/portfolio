@@ -16,8 +16,10 @@
  3. Features via User Stories.
 
   - Frameworks:
-   - Ruby on Rails
-   - Normalize
+   - express
+   - css:
+
+   ======================== To be created with Ruby and linked to the site==============
   - Blog
     - Posts:
       - Create / Edit / Destroy
@@ -26,6 +28,18 @@
       - Comments (Disqus)
       - Link to Github and Link to website
       - User (Devise)
+
+
+      ==Post==
+        title: string
+        content: string
+        link to website: string
+        link to github: string
+
+        ==User==
+          (Devise)
+
+      =================================================================================
     - Projects:
       - Create / Edit / Destroy
       - Contact:
@@ -44,17 +58,9 @@
 
  ## Modeling Data
 
-  ==Post==
-    title: string
-    content: string
-    link to website: string
-    link to github: string
 
   ==Project==
     title: string
     description: text
     link to website: string
     link to github: string
-
-  ==User==
-    (Devise)
