@@ -1,1 +1,6 @@
 
+.has-bg-img {
+  background: url('https://github.com/UnAngelLily/portfolio/blob/main/public/images/livingroomsllc.jpg?raw=true') center center;
+  background-size:cover;
+  opacity: .8;
+}
