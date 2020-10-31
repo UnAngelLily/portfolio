@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Lily Herreria | General Assembly</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&family=Crimson+Text:wght@600&family=Tangerine:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
   </head>
     <link rel="stylesheet" href="styles.css">
   <body>
   <section class="hero is-dark is-small has-bg-img">
-    <div class="hero-head">
-      <nav class="navbar is-mobile">
-        <div class="container">
-          <div class="navbar-brand">
-            <a class="navbar-item">
-            <a href="https://generalassemb.ly/"><img src="https://github.com/UnAngelLily/portfolio/blob/main/icons/generalassemblyLogo.png?raw=true" alt="General Assembly">
-            </a>
+
+      <div class="hero-head">
+        <nav class="navbar is-mobile">
+          <div class="container">
+            <div class="navbar-brand">
 
        </div>
        <div id="navbarMenuHeroA" class="navbar-menu has-background-grey-darker">
@@ -64,14 +63,28 @@
      </div>
    </nav>
  </div>
+ <div class="module">
     <div class="hero-body">
       <div class="container">
         <figure class="image is-128x128">
   <img class="is-rounded" src="public/images/lilyprofilepicture.jpeg">
 </figure>
-    <h1 class="title">Lily J Herreria</h1>
-    <h2 class="subtitle">Software Engineer ||  <strong>Fullstack  Developer</strong>
-    </h2>
+    <h1 class="title" style="
+    font-family: 'Cormorant', serif;
+    text-shadow: 0 1px 0 black;
+    color: #fff;
+    display: inline;
+    padding: 0.2rem;">
+      Lily J Herreria</h1><br />
+    <h1 class="subtitle"
+    style="
+      font-family: 'Crimson Text', serif;
+      text-shadow: 0 1px 0 black;
+      display: inline;
+      padding: 0.2rem;">
+        Software Engineer ||  <strong>Fullstack  Developer</strong>
+    </h1>
+        </div>
       </div>
     </div>
   </section>
@@ -79,8 +92,13 @@
     <div class="container">
       <div class="columns is-multiline is-mobile">
         <div class="column is-half">
-          <h3 class="title is-3">About Me</h3>
-            <h5 class="title is-5" style="align-content:space-around;">I graduated from The Univeristy of Northern Colorado double majoring in English and Asian Studies while minoring in psychology and music. I am a linguist at heart with a passion for learning. I enthusiastically enjoy embarking on new horizons while building upon earlier obtained skills. Transitioning into different roles has enhanced my abilities to acquire new skillsets quickly and my curiousity displays my ability to thrive in new and different environments. My most valuable experience has been my time spent at General Assembly where I have learned to embrace and live their growth mindset philosophy and celebrate challenges as my greatest learning opportunities. Diversely experienced and socially interactive, as an indiviudal I thrive in creative innovation that sonsistently push the boundaries in my surrounding.</h5>
+          <h4 class="title is-4"
+            style="padding-left: 30px;">About Me</h4>
+            <p class="title is-5" style="
+            padding-left: 30px;
+            font-family:'Crimson Text', serif;">
+            I graduated from The Univeristy of Northern Colorado double majoring in English and Asian Studies while minoring in psychology and music. I am a linguist at heart with a passion for learning. I enthusiastically enjoy embarking on new horizons while building upon earlier obtained skills. <br />
+            Transitioning into different roles has enhanced my abilities to acquire new skillsets quickly and my curiousity displays my ability to thrive in new and different environments. My most valuable experience has been my time spent at General Assembly where I have learned to embrace and live their growth mindset philosophy and celebrate challenges as my greatest learning opportunities. <br /> Diversely experienced and socially interactive, as an indiviudal I thrive in creative innovation that consistently push the boundaries in my surrounding.</p>
             <hr />
           <center>
             <a href="#" class="button is-medium is-primary"
@@ -130,12 +148,10 @@
         <div class="card-content">
           <a class="title has-text-danger-dark">Pokedex</a>
           <p>
-            <a class="subtitle">Frameworks</a>: Jquery<br />
+            <a
+             class="subtitle">Frameworks</a>: Jquery<br />
             <br />
-            <div class="img__wrap">
-              <img class= "img__img" src="https://github.com/UnAngelLily/portfolio/blob/main/public/images/default-placeholder-image.png?raw=true" style="width:300px; height:200px; box-shadow: 10px 10px 5px #ccc;">
-                <p class="img__description">Testing if hover works.</p>
-              </div>
+              <img  src="https://github.com/UnAngelLily/portfolio/blob/main/public/images/default-placeholder-image.png?raw=true" style="width:300px; height:200px; box-shadow: 10px 10px 5px #ccc;"><br />
               <br />
               A Pokedex that as a user I can look up a Pokemon via thier entry number and search using the left and right arrows to increase or decrease the pokemon entry number. An API was used to  populate a Pokemon's name, id, height, weight, and pixel image via  a loop in tandem with an on click event listener using the Jquery framework and some basic css  to style
             </p>
@@ -191,7 +207,7 @@
                 <br />
                 <img src="https://github.com/UnAngelLily/portfolio/blob/main/public/images/default-placeholder-image.png?raw=true" style="width:300px; height:200px; box-shadow: 10px 10px 5px #ccc;"><br />
                 <br />
-                This was a collaborative work created alongside my skillful partner, <a href="https://git.generalassemb.ly/jaslone">Jared Slone</a>. The application is a blog that features hiking trails. Through the use of CRUD via React, the application provides the user the ability to see, edit, create, and delete items on the application. The information includes item to assist in hike preparation.
+                This was a collaborative work created alongside my skillful partner, <a href="https://git.generalassemb.ly/jaslone">Jared Slone</a>. The application is a blog that features hiking trails. Through the use of CRUD via React, the application provides the user the ability to see, edit, create, and delete items on the application. The information includes items and content to assist in trail preparation.
               </p>
           </div>
           <footer class="card-footer" style="height: 100px;">
@@ -303,7 +319,7 @@
 </section>
 
 <section>
-  <footer class="footer has-background-grey-darker has-text-light">
+  <footer class="footer has-background-grey-darker has-text-light has-bg-img" style="text-shadow: 0 1px 0 black; font-family: 'Crimson Text', serif;">
     <div class="columns is-mobile">
       <div class="column is-one-third">
         <p>
@@ -326,21 +342,24 @@
             <img src="https://github.com/UnAngelLily/portfolio/blob/main/icons/icons8-linkedin-100.png?raw=true" style="width:50px;">
           </a>
           <a href="mailto:unangellily@gmail.com">
-            <img src="https://github.com/UnAngelLily/portfolio/blob/main/icons/devsig.jpg?raw=true" style="width:50px;">
+            <img src="https://github.com/UnAngelLily/portfolio/blob/main/icons/devsig.jpg?raw=true" style="
+              width:50px;
+              border-radius:50%;
+              ">
           </a>
         </p>
       </div>
       <hr class="navbar-divider">
-      <div class="column is-one-third" style="text-align:right;">
-        <p>
-          Graphic Design by <a href="http://www.sarahmenzel.com/">Sarah Menzel Trapl</a><br />
-          Website Design by <a href="mailto:unangellily@gmail.com">UnAngelLily
+      <div class="column is-one-third" style="text-align:right; font-family: 'Crimson Text', serif;">
+        <h2>
+          Graphic Design by <a href="http://www.sarahmenzel.com/" style="font-family: 'Tangerine', cursive;">Sarah Menzel Trapl</a><br />
+          Website Design by <a href="mailto:unangellily@gmail.com" style="font-family: 'Tangerine', cursive;">UnAngelLily
           </a><br />
           <a href="https://bulma.io/"><img src="http://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
           </a><br />
           <a href="https://icons8.com/icons/set/github-linkedin-stackoverflow-twitter">Icons
           </a>
-        </p>
+        </h2>
       </div>
     </div>
   </footer>
