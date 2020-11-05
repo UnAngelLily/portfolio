@@ -1,4 +1,4 @@
-
+/*  Bulma Hero header with pciture background code */
 .has-bg-img {
   background:
     linear-gradient(
@@ -9,6 +9,64 @@
     url('https://github.com/UnAngelLily/portfolio/blob/main/public/images/livingroomsllc.jpg?raw=true') center center;
   background-size:cover;
 }
+
+/* text effect for hero banner
+https://tobiasahlin.com/moving-letters/#2 */
+.ml2 {
+  font-weight: 900;
+  font-size: 2.5em;
+  font-family: 'Cormorant', serif;
+  color:#fff;
+  text-shadow: 0 1px 0 black;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+  padding: 0.2rem;
+}
+/* end text effect  */
+
+/*
+https://blog.hubspot.com/website/css-fade-in
+for fade in css code explanation
+
+https://codepen.io/thenocturnalfey/pen/jOEjaZR
+for codeio pen example
+*/
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+/* end fade in code. div class for element on html must ="fade-in" */
 
 .module {
   background: url(https://github.com/UnAngelLily/portfolio/blob/main/public/images/livingroomsllc.jpg?raw=true);

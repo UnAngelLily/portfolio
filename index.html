@@ -10,13 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&family=Crimson+Text:wght@600&family=Tangerine:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
     <!-- code to css stylesheet -->
     <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="app.js"></script>
+    <!-- sunny morning text effect
+    https://tobiasahlin.com/moving-letters/#2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   </head>
 
 <!-- Bulma Framework and html format of page ------------------------------->
   <body>
   <!-- Start Hero Banner -->
   <!-- Hero Banner and photo link -->
-  <section class="hero is-dark is-small has-bg-img">
+  <section class="hero is-dark is-small has-bg-img m12">
       <div class="hero-head">
         <!-- Navigation Bar insert into hero container -->
         <nav class="navbar is-mobile">
@@ -24,7 +28,7 @@
             <div class="navbar-brand">
        </div>
 
-       <!-- Start Navigation Bar code -->
+         <!-- Start Navigation Bar code -->
        <div id="navbarMenuHeroA" class="navbar-menu has-background-grey-darker">
          <!-- Push elements to the right side of the screen -->
          <div class="navbar-end">
@@ -33,19 +37,19 @@
              Main
            </a>
            <!-- Linkedin in Navigation -->
-           <a
+             <a
             class="navbar-item"
             href="https://www.linkedin.com/in/lilyjherreriagomez/" target="_blank" rel="noopener noreferrer">
              Linkedin
            </a>
            <!-- Link to Contact Form in Navigation -->
-           <a class="navbar-item"
+            <a class="navbar-item"
             href="#"
             target="_blank" rel="noopener noreferrer">
              Contact Me
            </a>
            <!-- Space between links and Resume and More in Navigation Bar -->
-           <span class="navbar-item">
+             <span class="navbar-item">
               <!-- Resume Download -->
              <a
               href="https://github.com/UnAngelLily/portfolio/blob/main/public/resume/LilyFullstackResume.docx?raw=true"
@@ -56,7 +60,7 @@
                <span>Download My Resume</span>
              </a>
            </span>
-           <!-- Drop down menu in Navigation -->
+             <!-- Drop down menu in Navigation -->
            <div class="navbar-item has-dropdown has-background-primary is-hoverable has-background-dark">
              <a class="navbar-link">
                More
@@ -64,14 +68,14 @@
              <div class="navbar-dropdown
              has-background-primary has-text-light">
               <!-- Dropdown link to github repos  -->
-               <a
+                 <a
                 href="https://github.com/UnAngelLily?tab=repositories" class="navbar-item"
                 target="_blank" rel="noopener noreferrer">
                  < Repository - UnAngelLily >
                </a>
                <hr class="navbar-divider">
                <!-- Dropdown link to coder's block blog -->
-               <a
+                 <a
                 href="https://codersblockblog.herokuapp.com/"
                 class="navbar-item"
                 target="_blank" rel="noopener noreferrer">
@@ -84,7 +88,7 @@
                 class="navbar-item"
                 target="_blank" rel="noopener noreferrer">
                  [ Email me ]
-               </a>
+             </a>
              </div>
            </div>
          </div>
@@ -92,25 +96,16 @@
      </div>
    </nav>
  </div>
-
  <!-- Banner under the Navigation -->
  <div class="module">
     <div class="hero-body">
       <div class="container">
         <!-- Profile Picture -->
-        <figure class="image is-128x128">
-          <img class="is-rounded" src="public/images/lilyprofilepicture.jpeg">
-        </figure>
-    <!-- Name under Profile Picture  -->
-    <h1 class=
-    "title"
-      style="
-        font-family: 'Cormorant', serif;
-        text-shadow: 0 1px 0 black;
-        color: #fff;
-        display: inline;
-        padding: 0.2rem;">
-        {Lily J Herreria}</h1><br />
+<figure class="image is-128x128 fade-in">
+<img class="is-rounded" src="https://i.imgur.com/qihN2j1.jpg">
+  </figure>
+  <!-- Name under Profile Picture  -->
+<h1 class="ml2" "title">{Lily J Herreria}</h1>
     <!-- Subtitle under Name and Profile Picture -->
     <h1 class="subtitle"
     style="
@@ -124,8 +119,7 @@
       </div>
     </div>
   </section>
-
-  <!-- Start About Me ------------------------------------------------------>
+      <!-- Start About Me ------------------------------------------------------>
   <section>
     <div class="container">
       <div class="columns is-multiline is-mobile">
