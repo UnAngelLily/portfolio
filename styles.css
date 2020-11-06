@@ -15,9 +15,10 @@ https://tobiasahlin.com/moving-letters/#2 */
 .ml2 {
   font-weight: 900;
   font-size: 2.5em;
+  text-shadow: 0 1px 0 black;
   font-family: 'Cormorant', serif;
   color:#fff;
-  text-shadow: 0 1px 0 black;
+
 }
 
 .ml2 .letter {
